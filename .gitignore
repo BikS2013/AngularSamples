@@ -10,3 +10,4 @@ scripts/*/*.js
 *.user
 **/scripts/**/*.js
 **/scripts/**/*.js.map
+*/.vs
