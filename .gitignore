@@ -1,0 +1,12 @@
+Current
+bower_components
+[Bb]in
+[Oo]bj
+node_modules
+packages
+typings
+scripts/*/*.js
+*.suo
+*.user
+**/scripts/**/*.js
+**/scripts/**/*.js.map
