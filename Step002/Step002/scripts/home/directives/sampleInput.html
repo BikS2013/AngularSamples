@@ -1,0 +1,7 @@
+﻿<div>
+    <input type="text" ng-model="data.text"/>
+    <button ng-click="data.toggleVisible()">send 1</button>
+
+    <span style="font-size:1.2em;" ng-show="data.isVisible" >{{data.text | convert}}</span>
+    <div length-label local-data="data"></div>
+</div>
