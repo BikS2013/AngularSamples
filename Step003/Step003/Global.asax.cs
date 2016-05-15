@@ -35,7 +35,7 @@ namespace Step003
             GlobalConfiguration.Configuration.DependencyResolver = new SimpleInjectorWebApiDependencyResolver(container);
 
         }
-
+        #region hidden
         protected void Session_Start(object sender, EventArgs e)
         {
 
@@ -65,5 +65,6 @@ namespace Step003
         {
 
         }
+        #endregion
     }
 }
